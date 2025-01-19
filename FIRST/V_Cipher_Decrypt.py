@@ -57,6 +57,8 @@ def vigenere_decrypt(ciphertext, key):
     
     return ''.join(decrypted_text)
 
+
+
 file_path = 'v_ciphertext_46.txt' 
 ciphertext = read_text(file_path)
 cleaned_ciphertext = clean_text(ciphertext)
